@@ -38,5 +38,5 @@ dependencies {
     implementation 'me.jessyan:arms:1.6.3' //使用Rxjava1 (请注意 Rxjava1 的版本以后不再维护,建议使用 Rxjava2 版本)
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"] //Butterknife 插件,很多人因为没加这个而报错,切记!!!
     annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]//依赖插件, annotationProcessor 是 AndroidStudio 自带并用来替换 APT
-
+    GlobalConfiguration
 }
